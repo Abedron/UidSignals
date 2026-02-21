@@ -1,0 +1,14 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+/.vs/
+/.idea/
+*.sln.docstates
+*.user
+*.suo
+*.cache
+*.log
+*.vspscc
+*.vssscc
