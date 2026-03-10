@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Interop;
 
 namespace UidSignals
 {
@@ -15,7 +16,7 @@ namespace UidSignals
         {
             base.OnSourceInitialized(e);
             
-            LogitechController.Initialize(this);
+            LogitechController.Initialize(PresentationSource.FromVisual(this) as HwndSource);
 
             LogitechController.ThumbWheelScrolled += OnThumbWheelScrolled;
         }
