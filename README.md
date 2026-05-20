@@ -169,4 +169,4 @@ Edit `MainWindow.xaml` - `Button.Content` property in each StackPanel:
 
 ## 📄 License
 
-This project is intended for educational and personal use.
+MIT License – see the [LICENSE](LICENSE) file for details.
